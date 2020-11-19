@@ -1,0 +1,105 @@
+* {
+  font-family: 'Kumbh Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  background: #19a2ae;
+}
+
+.card {
+  background: white !important;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+svg {
+  border-radius: 10px 10px 0 0;
+}
+
+.middle {
+  text-align: center;
+  height: 145px;
+  border-bottom: 0.5px solid #969696;
+  border-bottom: opacity(0.5);
+}
+
+.middle img {
+  position: relative;
+  top: -50px;
+  border-radius: 100%;
+  border: 5px solid white;
+}
+
+.middle .userName {
+  margin-top: 0;
+  position: relative;
+  top: -40px;
+  color: #2d3248;
+}
+
+.middle .userCity {
+  position: relative;
+  top: -30px;
+  color: #6a6f81;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.bottom {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.bottom .bottom1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+}
+
+.bottom .bottom1 li {
+  font-weight: 700;
+  color: #2d3248;
+}
+
+.bottom .bottom1 .likesNum {
+  margin-left: 15px;
+}
+
+.bottom .bottom1 .followNum {
+  margin-left: 5px;
+}
+
+.bottom .bottom2 {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+}
+
+.bottom .bottom2 li {
+  font-size: 14px;
+  color: #6a6f81;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,85 @@
+*{
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background: hsl(185, 75%, 39%);
+}
+.card{
+    background: white !important;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+svg{
+    border-radius: 10px 10px 0 0;
+}
+.middle{
+    text-align: center;
+    height: 145px;
+    border-bottom: .5px solid hsl(0, 0%, 59%);
+    border-bottom: opacity(.5);
+
+    img{
+        position: relative;
+        top: -50px;
+        border-radius: 100%;
+        border: 5px solid white;
+    }
+    .userName{
+        margin-top: 0;
+        position: relative;
+        top: -40px;
+        color: hsl(229, 23%, 23%);
+    }
+    .userCity{
+        position: relative;
+        top: -30px;
+        color: hsl(227, 10%, 46%);
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+.bottom{
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    .bottom1{
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        
+        li{
+            font-weight: 700;
+            color: hsl(229, 23%, 23%);
+        }
+        .likesNum{
+            margin-left: 15px;
+        }
+        .followNum{
+            margin-left: 5px;
+        }
+    }
+    .bottom2{
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        
+        li{
+            font-size: 14px;
+            color: hsl(227, 10%, 46%);
+            font-weight: 400;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+        }
+    }
+}
